@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- the congratulations popup -->
+    <div id="modalWin" class="modal">
+            <div class="modal-content">   
+                <h1> Congratulations You Win! (:</h1>  
+                <h3> Your Score is</h3>
+                <h2 id="score"> 000 </h2>
+                <button id="playAgainWin"> Play Again?! </button>
+            </div>
+        </div>
+         <!-- the Game over popup -->
+    <div id="modal" class="modal">
+            <div class="modal-content">   
+                <h1> Game Over! ): </h1>  
+                <button id="tryAgain"> Try Again?! </button>
+            </div>
+        </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
